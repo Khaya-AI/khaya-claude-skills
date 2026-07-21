@@ -1,0 +1,13 @@
+{
+  "name": "khaya-ai",
+  "displayName": "Khaya AI",
+  "version": "1.0.0",
+  "description": "Speech recognition (34 languages), text-to-speech (32 languages), and translation for African languages via the Khaya AI APIs. Requires a Khaya AI API key (KHAYA_API_KEY).",
+  "author": {
+    "name": "Khaya AI",
+    "email": "subscriptions@khaya.ai"
+  },
+  "homepage": "https://github.com/Khaya-AI/khaya-claude-skills",
+  "license": "MIT",
+  "keywords": ["khaya", "ghananlp", "translation", "asr", "tts", "african-languages"]
+}

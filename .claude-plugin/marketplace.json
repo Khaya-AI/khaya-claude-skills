@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "khaya-ai",
+  "version": "1.0.0",
+  "description": "Official Khaya AI skills for Claude: speech recognition (ASR), text-to-speech (TTS), and machine translation for African languages.",
+  "owner": {
+    "name": "Khaya AI",
+    "email": "subscriptions@khaya.ai"
+  },
+  "plugins": [
+    {
+      "name": "khaya-ai",
+      "source": "./plugins/khaya-ai",
+      "description": "Transcribe, synthesize, and translate African languages (Twi, Ewe, Ga, Dagbani, Hausa, Swahili, Yoruba, and more) via the Khaya AI APIs. Requires a Khaya AI API key.",
+      "version": "1.0.0",
+      "author": "Khaya AI",
+      "keywords": ["khaya", "ghananlp", "translation", "asr", "tts", "african-languages", "twi", "ewe", "ga"]
+    }
+  ]
+}
