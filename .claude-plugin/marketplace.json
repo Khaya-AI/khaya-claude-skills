@@ -13,7 +13,7 @@
       "source": "./plugins/khaya-ai",
       "description": "Transcribe, synthesize, and translate African languages (Twi, Ewe, Ga, Dagbani, Hausa, Swahili, Yoruba, and more) via the Khaya AI APIs. Requires a Khaya AI API key.",
       "version": "1.0.0",
-      "author": "Khaya AI",
+      "author": { "name": "Khaya AI", "email": "subscriptions@khaya.ai" },
       "keywords": ["khaya", "ghananlp", "translation", "asr", "tts", "african-languages", "twi", "ewe", "ga"]
     }
   ]
