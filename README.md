@@ -53,6 +53,15 @@ Claude fetches supported languages live from the APIs (`GET /languages`), so new
 
 Full API reference: [translation.ghananlp.org](https://translation.ghananlp.org) · Questions: subscriptions@khaya.ai
 
+## Network access note (Cowork / Claude desktop app)
+
+The skills call `https://translation-api.ghananlp.org`. Claude Code and local
+environments can reach it directly, but **Cowork's sandbox restricts outbound
+network access to an allowlist**, so API calls from Cowork may fail with a
+proxy `403` until that domain is allowed. On Team/Enterprise plans, an org
+owner can permit it under **Admin settings -> Capabilities** (network access).
+This is a platform restriction, not an issue with the skills or your API key.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
